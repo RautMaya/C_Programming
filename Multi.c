@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
+    int n1,n2,n3;
     printf("Enter two numbers");
-    scanf("%d%d",&a,&b);
-    c=a%b;
-    printf("multi=%d",c);
+    scanf("%d%d",&n1,&n2);
+    n3=n1%n2;
+    printf("multi=%d",n3);
 }
