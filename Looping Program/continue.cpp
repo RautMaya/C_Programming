@@ -5,9 +5,9 @@ int main()
 {
     for(int i=1;i<=8;i++)
     {
-        if(i==2)
+        if(i==5)
         {
-            break;
+            continue;
         }
         cout<<i<<endl;
     }
