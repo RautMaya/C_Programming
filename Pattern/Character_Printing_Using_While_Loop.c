@@ -2,7 +2,7 @@
 int main()
 {
     int i=1,j=0;
-    int rows=5;
+    int rows=8;
     char character='A';
 
     while(i<=rows)
