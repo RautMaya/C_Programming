@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int rows=7,i,j,space;
+    int rows=4,i,j,space;
     for(i=rows;i>=1;--i)
     {
         for(space=0;space<rows-i;++space)
