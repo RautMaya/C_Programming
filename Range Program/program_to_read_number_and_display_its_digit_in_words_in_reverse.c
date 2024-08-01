@@ -7,8 +7,9 @@ int main()
     {
         switch(remainder)
         {
-            printf("Enter any one number");
+            printf("Enter any one number %d =",number);
             scanf("%d",&number);
+
             case 0:printf("zero");
             break;
             case 1:printf("one");
