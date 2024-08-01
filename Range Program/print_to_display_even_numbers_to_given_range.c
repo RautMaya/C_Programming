@@ -7,7 +7,7 @@ int main()
     for(i=1;i<=range;i++)
     {
         if(i%2==0)
-            prinf("%d,i");
+            printf("%d",i);
     }
     return 0;
 }
