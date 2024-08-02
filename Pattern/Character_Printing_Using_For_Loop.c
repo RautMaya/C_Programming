@@ -2,7 +2,7 @@
 int main()
 {
     int i,j;
-    int rows=6;
+    int rows=4;
     char character='A';
 
     for(i=0;i<rows;i++)
