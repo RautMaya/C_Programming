@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int num,i,range;
+    int n,i,range;
     printf("Enter an integer:");
-    scanf("%d",&num);
+    scanf("%d",&n);
 
     do{
         printf("Enter the range(Positive integer):");
@@ -13,7 +13,7 @@ int main()
 
     for(i=1;i<=range;++i)
     {
-        printf("%d*%d=%d\n",num,i,num*i);
+        printf("%d*%d=%d\n",n,i,n*i);
     }
     return 0;
 }
