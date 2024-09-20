@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int number,remainder,reverse=0;
-    number!=0;
-    remainder=number%10;
+    int num,remainder,reverse=0;
+    num!=0;
+    remainder=num%10;
     {
         switch(remainder)
         {
-            printf("Enter any one number %d =",number);
-            scanf("%d",&number);
+            printf("Enter any one number %d =",num);
+            scanf("%d",&num);
 
             case 0:printf("zero");
             break;
