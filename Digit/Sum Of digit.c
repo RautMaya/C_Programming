@@ -3,7 +3,7 @@
 
 int main()
 {
-    int iNum=0,temp=0,dig=0,Cnt=0;
+    int iNum=0,temp=0,dig=0,iCnt=0;
 
     printf("Enter Number");
     scanf("%d",&iNum);
@@ -13,12 +13,12 @@ int main()
     {
         dig=temp%10;
 
-        Cnt=Cnt+dig;
+        iCnt=iCnt+dig;
 
 
         temp=temp/10;
     }
-    printf("Sum of Digit is %d =%d",iNum,Cnt);
+    printf("Sum of Digit is %d =%d",iNum,iCnt);
 
     getch();
     return 0;
