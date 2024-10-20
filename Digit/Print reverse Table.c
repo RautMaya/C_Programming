@@ -3,16 +3,16 @@
 
 int main()
 {
-    int i=0,num;
+    int i=0,inum;
 
     printf("Enter Number");
-    scanf("%d",&num);
+    scanf("%d",&inum);
 
-    printf("Reverse Table of %d\n",num);
+    printf("Reverse Table of %d\n",inum);
 
     for(i=10;i>=1;i--)
     {
-        printf("%d\n",(num*i));
+        printf("%d\n",(inum*i));
 
     }
     getch();
