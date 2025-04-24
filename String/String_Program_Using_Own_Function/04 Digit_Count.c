@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+
+int DigitCount(char[]);
+
+int main()
+{
+    char cSrc[20] = "";
+    int L_Cnt = 0;
+
+    printf("\n Enter a String :");
+    gets(cSrc);
+
+    L_Cnt = DigitCount(cSrc);
+
+    printf("\n Digit Count Of a given String : %d",L_Cnt);
+
+    getch();
+    return 0;
+}
+
+int DigitCount(char Src[])
+{
+    int len=0,i = 0;
+
+    while(Src[i] != '\0')
+    {
+        if(Src[i] >= '0' && Src[i] <= '9')
+        {
+            len++;
+        }
+      i++;
+    }
+
+    return len;
+
+}
+
+
