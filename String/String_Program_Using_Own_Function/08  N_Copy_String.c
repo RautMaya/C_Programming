@@ -25,12 +25,10 @@ void StringNCpy(char Dest[],char Src[],int C)
 {
     int i = 0;
 
-    while(Src[i] != '\0')
+    while(Src[i] != '\0' && i < C)
     {
-        if(Src[i] <= '7')
-        {
             Dest[i] = Src[i];
-        }
+
 
       i++;
     }
