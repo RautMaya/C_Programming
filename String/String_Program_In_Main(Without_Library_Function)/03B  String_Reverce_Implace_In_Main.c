@@ -3,8 +3,8 @@
 
 int main()
 {
-    char cSrc[20] = "\0";
-    char temp[20] = "\0";
+    char cSrc[20] = "";
+    char temp = '\0';
     int i = 0 , j = 0;
 
     printf("\n Enter Your Name : ");
@@ -18,9 +18,12 @@ int main()
 
     while(i > j)
     {
-        temp = cSrc[i];
-        cSrc[i] = cSrc[j];
-        cSrc[j] = temp;
+        temp = cSrc[j];
+        cSrc[j] = cSrc[i];
+        cSrc[i] = temp;
+
+        i--;
+        j++;
     }
 
 
